@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Overpass:ital,wght@0,100..900;1,100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+  
+  <link rel="stylesheet" href="src/css/style.css">
+
+  <title>Interactive rating component</title>
+
+</head>
+<body>
+
+  <div class="contenedor-principal-uno">
+    <img src="images/icon-star.svg" alt="icon-star">
+    <h1>How did we do?</h1>
+
+    <p class="uno-texto">Please let us know how we did with your support request. All feedback is appreciated 
+      to help us improve our offering!</p>
+  
+      <div class="notas">
+        <p class="nota" id="1">1</p> 
+        <p class="nota" id="2">2</p>
+        <p class="nota" id="3">3</p>
+        <p class="nota" id="4">4</p>
+        <p class="nota" id="5">5</p>
+      </div>
+    
+
+    <button type="submit" class="enviar">Submit</button>
+  </div>
+
+  <div class="contenedor-principal-dos">
+    <img src="images/illustration-thank-you.svg" alt="thank you">
+    
+    <div class="selected">
+      <p>You selected <span id="añadir-nota"></span> out of 5</p>
+    </div>
+    
+
+    <h3 class="dos-titulo">Thank you!</h3>
+
+    <p class="dos-texto">We appreciate you taking the time to give a rating. If you ever need more support, 
+      don’t hesitate to get in touch!</p>
+  </div>
+
+  <script src="src/js/js.js"></script>
+
+</body>
+</html>
